@@ -44,7 +44,8 @@ public class Main {
                         break;
                 }
             } catch (InputMismatchException e) {
-                break;
+                System.out.println("Podaj wartość numeryczną");
+                continue;
             }
             System.out.println("Czy chcesz kontynułować? 1 - Tak, 2 - Nie");
             int respondB = scanner.nextInt();
